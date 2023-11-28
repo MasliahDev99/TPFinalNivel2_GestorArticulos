@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capa presentacion", "TPFinlal_FelipeMaslia\Capa presentacion.csproj", "{EF22C658-F961-4616-BDEB-94EEADDA4652}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capa persistencia", "Capa persistencia\Capa persistencia.csproj", "{19E391BD-1E1A-4853-AAAE-AE2C6BD80F4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capa Dominio", "Capa Dominio\Capa Dominio.csproj", "{0EFDC875-94AA-4E1B-A715-DE64B9132107}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF22C658-F961-4616-BDEB-94EEADDA4652}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF22C658-F961-4616-BDEB-94EEADDA4652}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF22C658-F961-4616-BDEB-94EEADDA4652}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF22C658-F961-4616-BDEB-94EEADDA4652}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19E391BD-1E1A-4853-AAAE-AE2C6BD80F4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19E391BD-1E1A-4853-AAAE-AE2C6BD80F4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19E391BD-1E1A-4853-AAAE-AE2C6BD80F4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19E391BD-1E1A-4853-AAAE-AE2C6BD80F4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EFDC875-94AA-4E1B-A715-DE64B9132107}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EFDC875-94AA-4E1B-A715-DE64B9132107}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EFDC875-94AA-4E1B-A715-DE64B9132107}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EFDC875-94AA-4E1B-A715-DE64B9132107}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {21F39323-00CB-448E-BADE-2E3D5070CF60}
+	EndGlobalSection
+EndGlobal
