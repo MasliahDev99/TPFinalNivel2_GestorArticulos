@@ -77,7 +77,7 @@ namespace TPFinlal_FelipeMaslia.GestorArticulos
         }
         private void btn_agregar_Click(object sender, EventArgs e)
         {
-            // validar si codigo articulo no existe en los registros
+            
             try
             {
                 infoArticulos art = new infoArticulos();
@@ -208,7 +208,7 @@ namespace TPFinlal_FelipeMaslia.GestorArticulos
                 string imagenUrl = archivo.FileName;
                 cargarImagen2(imagenUrl);// enseño la imagen seleccionada
 
-                txt_img.Text = imagenUrl; // muestro la 
+                txt_img.Text = imagenUrl; 
             }
         }
     }

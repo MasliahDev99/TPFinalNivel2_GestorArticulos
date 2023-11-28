@@ -552,7 +552,7 @@ namespace Capa_persistencia.sqlServer
             
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
-                string query = "SELECT MAX(Precio) AS precioMaximo FROM ARTICULOS";  // utilizo la tabla temporal ListaArticulos 
+                string query = "SELECT MAX(Precio) AS precioMaximo FROM ARTICULOS";   
 
                 using (SqlCommand command = new SqlCommand(query, connection))
                 {
@@ -575,7 +575,7 @@ namespace Capa_persistencia.sqlServer
 
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
-                string query = "SELECT MIN(Precio) AS precioMinimo FROM ARTICULOS";  // utilizo la tabla temporal ListaArticulos 
+                string query = "SELECT MIN(Precio) AS precioMinimo FROM ARTICULOS";  
 
                 using (SqlCommand command = new SqlCommand(query, connection))
                 {

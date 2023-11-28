@@ -46,7 +46,7 @@ namespace TPFinlal_FelipeMaslia.GestorArticulos
 
         private void btn_add_Click(object sender, EventArgs e)
         {
-            // falta validar que la nueva categoria y nueva marca no existan
+            
             Marcas marca    = new Marcas();
             Categorias categoria = new Categorias(); 
             clsArticulos nuevo = new clsArticulos();  

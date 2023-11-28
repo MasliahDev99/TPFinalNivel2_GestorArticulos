@@ -317,7 +317,6 @@ namespace TPFinlal_FelipeMaslia.GestorArticulos
         private void btn_agregar_Click(object sender, EventArgs e)
         {
 
-            // validar si codigo articulo no existe en los registros
             try
             {
                 infoArticulos art = new infoArticulos();
@@ -468,7 +467,7 @@ namespace TPFinlal_FelipeMaslia.GestorArticulos
             
         }
 
-        private string ObtenerCodigoArticulo(string marca)// arreglar, si agrego marcas que comienzen con la misma letra puede a ver incongruencias
+        private string ObtenerCodigoArticulo(string marca)
         {
             if (!string.IsNullOrEmpty(marca))
             {
@@ -476,7 +475,7 @@ namespace TPFinlal_FelipeMaslia.GestorArticulos
             }
             else
             {
-                return string.Empty; // medio al dope
+                return string.Empty; 
             }
         }
        
