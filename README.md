@@ -13,6 +13,7 @@ Este proyecto es el resultado de mi esfuerzo en el curso nivel 2 de C# .NET y SQ
 Durante este proyecto, he adquirido y aplicado conocimientos clave, incluyendo:
 - Diseño y desarrollo de aplicaciones de escritorio con C# y .NET Framework
 - Implementación de operaciones CRUD (Create, Read, Update, Delete)
+- Cargar Imagenes o guardar en la carpeta de la app
 - Conceptos básicos de SQL para trabajar con bases de datos
 - Utilización de herramientas proporcionadas por Microsoft Visual Studio Code
 - Apertura de formularios secundarios en el mismo formulario principal
